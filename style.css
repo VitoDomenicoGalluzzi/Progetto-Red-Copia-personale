@@ -1,0 +1,151 @@
+
+body{
+    background-color: #ececec;
+}
+
+.ImmagineLogo{
+    width: 180px;
+}
+
+.ListaNone{
+    list-style: none;
+}
+
+.DivHeaderLorem{
+    height: 350px ;
+}
+
+header{
+    background: linear-gradient( rgba( 255,255,255, 1 ) 25% , rgba( 255,255,255, 0 ) 75% ), url(./media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.Pallino{
+    border-bottom: 3px solid darkred;
+    position: relative;
+}
+
+.Pallino::before{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #ececec;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    left: 46%;
+    bottom: -10px;
+}
+
+.Timeline{
+    border-left: 3px solid darkred;
+}
+
+.Timeline-Pallino{
+    position: relative;
+}
+
+.Timeline-Pallino::before{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #ececec;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    left: -40px;
+    top: 9px;
+}
+
+h1{
+    font-family:'Nova Square', sans-serif;
+    color: darkred;
+    font-size: 120px;
+}
+
+.text-darkred{
+    color: darkred;
+}
+
+.bg-darkred{
+    background-color: darkred;
+}
+
+.FontNovaSquare{
+    font-family:'Nova Square', sans-serif;
+}
+
+.FontRajdhani{
+    font-family:'Rajdhani', sans-serif;
+}
+
+
+
+.form-range::-webkit-slider-thumb{
+    background-color: white;
+    border: 3px solid darkred;
+}
+
+.form-range::-webkit-slider-thumb:active{
+    background-color: darkred;
+}
+
+.FinaleDoppiLorem{
+    height: 462px;
+    background-image: url(./media/trees2.png);
+}
+
+.ButtonDL{
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+}
+
+.OurTimeline{
+    font-size: 45px;
+}
+
+.FinaleOurTimeline{
+    background-image: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.DivImmagineOT{
+    padding-top: 70px ;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+}
+
+.ImmagineOT{
+    height: 270px;
+    width: 270px;
+    padding: 7px;
+    border: 3px solid darkred;
+    border-radius: 50%;
+}
+
+.ImmagineOB{
+    height: 250px;
+    width: 250px;
+    border: 3px solid darkred;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.ImmagineIF{
+    width: 100%;
+}
+
+.IntermezzoFooter{
+    height: 500px;
+    background-color: aqua;
+}
+
+.fs-footer{
+    font-size: 55px;
+}
